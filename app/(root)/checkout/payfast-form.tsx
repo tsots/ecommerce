@@ -14,7 +14,11 @@ export function ReactPayfastExample({
       <input type="hidden" name="cancel_url" value="/" /> */}
       <input type="hidden" name="email_address" value={email} />
       <input type="hidden" name="item_name" value="Test Product" />
-      <input type="submit" />
+      <input
+        type="submit"
+        className="bg-red-500 py-2 px-5 rounded-lg text-white"
+        value="Pay Now"
+      />
     </form>
   );
 }

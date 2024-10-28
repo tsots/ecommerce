@@ -108,7 +108,7 @@ export default function OrderDetailsForm(
                         <span className="px-2">{item.qty}</span>
                       </TableCell>
                       <TableCell className="text-right">
-                        ${item.price}
+                        R {item.price}
                       </TableCell>
                     </TableRow>
                   ))}

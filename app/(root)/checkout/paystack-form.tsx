@@ -1,6 +1,7 @@
 // @ts-nocheck
 import { usePaystackPayment } from "react-paystack";
 import { formatNumberWithDecimal } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 function PayStack({ priceInCents }: { priceInCents: number }) {
   const config = {
@@ -32,7 +33,7 @@ function PayStack({ priceInCents }: { priceInCents: number }) {
             initializePayment(onSuccess, onClose);
           }}
         >
-          Paystack Hooks Implementation
+          <Button>Pay Now</Button>
         </button>
       </div>
     );
