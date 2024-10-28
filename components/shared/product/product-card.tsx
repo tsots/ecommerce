@@ -13,7 +13,7 @@ const ProductCard = ({ product }: { product: Product }) => {
         <Link href={`/product/${product.slug}`}>
           <Image
             alt={product.name}
-            className="aspect-square object-cover rounded"
+            className="object-cover rounded py-3"
             height={220}
             src={product.images![0]}
             width={254}

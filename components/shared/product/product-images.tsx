@@ -12,9 +12,9 @@ export default function ProductImages({ images }: { images: string[] }) {
       <Image
         src={images[current]}
         alt="product image"
-        width={1000}
-        height={1000}
-        className="min-h-[300px] object-cover object-center "
+        width={300}
+        height={300}
+        className="min-h-[330px] object-cover object-center "
       />
       <div className="flex">
         {images.map((image, index) => (
