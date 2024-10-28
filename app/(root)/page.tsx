@@ -11,7 +11,7 @@ export default async function Home() {
   const latestProducts = await getLatestProducts();
   return (
     <div>
-      <ProductList title="Newest Arrivals" data={latestProducts} />
+      <ProductList title="Our Products" data={latestProducts} />
     </div>
   );
 }
